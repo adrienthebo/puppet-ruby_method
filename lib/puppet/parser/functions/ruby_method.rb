@@ -33,7 +33,7 @@ EOD
 
 Puppet::Parser::Functions.newfunction(:ruby_method,
                                       :type => :rvalue,
-                                      :arity => -1,
+                                      :arity => 4,
                                       :doc => doc) do |args|
   k_name, k_args, m_name, m_args, *extra = *args
 
