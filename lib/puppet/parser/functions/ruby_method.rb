@@ -29,6 +29,8 @@ Argument parsing is subject to the Puppet DSL type parsing, so you probably want
 to have an understanding of how the DSL parses strings, symbols, numbers, and so
 forth.
 
+This function was written in about 10 minutes and is probably not a good idea.
+
 EOD
 
 Puppet::Parser::Functions.newfunction(:ruby_method,
